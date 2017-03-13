@@ -103,3 +103,19 @@ The second program utilizes the hamming distance metric and compares the first n
     write.csv(hammingCount, file = "hammingCountThres75.csv") 
     
 I have added an excel file with the initial findings. There is approximately 7 full days of data on this graph. For simplicity, you can see the image [here](https://drive.google.com/file/d/0B09uYnicWpbLeGtfbDRSOVNZbUE/view?usp=sharing):exclamation::squirrel:
+
+--------------------------------------------------------------------------------------------------
+
+Updated portion of README -
+
+I have created a script in python that runs through all of the data files accessible to me 
+
+The data is still like the sample one in the data directory, however, I have received more of it. 
+
+Summary of the scripts abilities thus far:
+
+In 12 mins, it ran through 800 files (500 mb worth of data), and created approximately 1600 files, while only using 30 % of my cpu capacity
+
+This can be enhanced incredibly by adding using python nb clusters I beleive, and also by limiting the amount of times I open and write to files, which in this brute force method is currently a lot. 
+
+I will try to do this further down the line (within the next two weeks or so) after conducting the mode analysis, along with some introductory social network analysis. 
